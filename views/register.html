@@ -29,8 +29,9 @@
                 </form>
              <p class= "compra"><i class="fas fa-hand-holding-usd"> </i> Comprá en cuotas y sin tarjeta de crédito</p> 
             </div>
-
-            <a href="/?#"><button>Ir al home</button></a>
+            <div class= "boton-home">
+                <a href="/?#"><button>Ir al home</button></a>
+                </div>
 
             <nav>
                 <div class= "lista-head">
@@ -66,14 +67,16 @@
 
         <main class="register">
             <form action="/" method="POST">
+                <div class="form-style-6">
+                    <h1>Registrate con apenas unos cliks!</h1>
                 <input type="text" name="name" placeholder="Nombre y apellido">
                 <input type="text" name="user" placeholder="Nombre de usuario">
                 <input type="email" name="email" placeholder="E-mail">
                 <br>
-                <label for="birth_date"><b>Fecha de nacimiento</b></label>
-                <br>
+                <label for="birth_date"><h4>Fecha de nacimiento</h4></label>
                 <input type="date" name="birth_date" id="birth_date">
                 <br>
+                <h4>Domicilio</h4>
                 <input type="text" name="addres" placeholder="Domicilio">
                 <h4>Perfil del usuario</h4>
                 <div class="profile">
@@ -81,6 +84,7 @@
                     <label for="buy">Comprador</label>
                     <input type="radio" name="profile" value="sell" id="sell">
                     <label for="sell">Vendedor</label>
+                    
                 </div>
 
                 <h4>Intereses</h4>
@@ -119,6 +123,7 @@
                 <input type="reset" value="Borrar">
                 <br>
                 <br>
+            </div>
             </form>
         </main>
         <footer>

@@ -15,6 +15,8 @@ body{
     display:inline;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+    border-radius:10px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
 }
 
 
@@ -28,7 +30,7 @@ body{
        
 }
 .lista-head{
-    background-color: #EAC926;
+    background-color:#F7F7F7;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     color: black;
@@ -37,6 +39,8 @@ body{
     box-sizing: border-box;
     flex-wrap: wrap;
     width: 100%;
+    border-radius:10px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
 
 }
 
@@ -84,6 +88,7 @@ header .form{
     align-items: center;
     padding: 2px;
     font-size: 11px;
+    
 }
 header nav{
     font-size: 12px;
@@ -127,6 +132,8 @@ div.burger-menu i{
     margin: 10px 0px 20px 0px;
     padding: 10px;
     width: 40px;
+    border-radius:10px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
 }
 
 div.last-visit,
@@ -149,7 +156,17 @@ div.offers{
 
 }
 
+.boton-home, .home-button {
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px;
+    padding: 10px;
+    width: 40px;
+    border-radius:10px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
 
+}
 .description{
     font-size: 20px;
     font-weight: normal;
@@ -168,6 +185,8 @@ div.offers{
 
 section.banner img{
     width: 100%;
+    border-radius:10px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
 }
 
 main{
@@ -179,10 +198,14 @@ main{
 main section article{
     background-color: #fff;    
     margin: 10px 0px;
+    border-radius:10px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
 }
 
 main section article img{
     width: 100%;
+    border-radius:10px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
 }
 
 main section article i,
@@ -229,6 +252,8 @@ footer {
     margin-bottom: 15px;
     text-align: left;
     box-sizing: border-box;
+    border-radius:10px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
 
 }
 
@@ -241,16 +266,23 @@ footer ul li{
     background-color: #EAC926;
     text-align: left;
     box-sizing: border-box;
+    margin:10px ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px ;
+    border-radius:10px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+
     
 }
 
 .home-button{
     font-weight: bold;
-    font-size: 25px;
+    font-size: 40px;
     color: black;
     padding: 22px;
-
-
+    border-radius:10px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 main.login{
@@ -262,23 +294,29 @@ main.login{
     width: 1500px;
     height: 100px;
     background-color: #ebebeb;
+    border-radius:10px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
 
 }
 
 .form-style-6{
-	font: 95% Arial, Helvetica, sans-serif;
+	font: 100% Arial, Helvetica, sans-serif;
 	max-width: 400px;
 	margin: 10px auto;
 	padding: 16px;
-	background: #F7F7F7;
+    background: #F7F7F7;
+    box-shadow: #F7F7F7;
+    border-radius:10px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
 }
 .form-style-6 h1{
 
-	padding: 100px;
-	font-size: 140%;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 170%;
 	font-weight: 300px;
 	text-align: center;
-    color: #fff;	
+    color: #EAC926;	
     box-sizing: border-box;
 }
 
