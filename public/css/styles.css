@@ -22,9 +22,8 @@ body{
     display:inline;
     padding-left:4px;
     padding-right:4px;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
-    color:#EAC926;
     flex-wrap: wrap;
        
 }
@@ -33,20 +32,15 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     color: black;
-    padding: 22px;
-    margin-bottom: 15px;
-    text-align: left;
+    padding: 15px;
+    text-align: center;
     box-sizing: border-box;
     flex-wrap: wrap;
+    width: 100%;
 
 }
 
-.separador {
-    color:black;
-    font-size: 24px;
-    font-weight: bold;
 
-}
 
 h4{
     font-size: 24px;
@@ -78,10 +72,12 @@ header{
 header div.logo,
 header .form{
     width: 50%;
+    
 }
 
 header div.logo{
-    padding: 10px;
+    padding: 15px;
+    
 }
 header .form{
     display: flex;
@@ -140,27 +136,32 @@ div.offers{
 }
 
 .price{
-    font-size: 18px;
+    font-size: 20px;
     width: 30%;
 }
 
 .discount{
     width: 70%;
-}
-
-.discount,
-.description{
-    font-size: 16px;
+    font-size: 20px;
+    text-align: left;
     font-weight: normal;
+    padding: 10px;
+
 }
 
-/* h3,
+
+.description{
+    font-size: 20px;
+    font-weight: normal;
+    padding: 10px;    
+}
+
+ h3,
 .description{
     color: #666;
-    display: none;
     margin-top: 20px;
 }
-*/
+
 .description{
     font-weight: bold;
 }
