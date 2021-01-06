@@ -253,6 +253,18 @@ footer ul li{
 
 }
 
+.login{
+    font-size: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #EAC926;
+    text-align: center;
+    width: 1500px;
+        
+
+
+}
+
 @media (min-width: 480px){
       
     main section div.products{
