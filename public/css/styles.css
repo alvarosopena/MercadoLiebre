@@ -157,16 +157,22 @@ div.offers{
 }
 
 .boton-home, .home-button {
-    color: #FFF;
-    font-size: 20px;
-    height: 40px;
-    margin: 10px;
-    padding: 10px;
-    width: 40px;
-    border-radius:10px;
-    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
-
+    width: 301px;
+    height: 30px;
+    background-color: #EAC926;
+    transition: border-radius 450ms;
+    align-items: center;
+    margin-left: 100px;
+    margin-bottom: 30px;
+   
 }
+ 
+.boton-home:hover {
+  border-radius: 50%;
+}
+.home-button:hover {
+    border-radius: 50%;
+  }
 .description{
     font-size: 20px;
     font-weight: normal;
