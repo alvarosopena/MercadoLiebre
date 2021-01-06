@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
         <link rel="stylesheet" href="/css/styles.css">
     </head>
+
     <body>
         <header>
             <div class="top-header">
@@ -26,28 +27,30 @@
                     <div role="img" aria-label="Buscar" ></div>
                     </button>
                 </form>
+             <p class= "compra"><i class="fas fa-hand-holding-usd"> </i> Comprá en cuotas y sin tarjeta de crédito</p> 
+            </div>
+            
+            <a href="/?#"><button>Ir al home</button></a>
 
-                <p><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</p>
-                <a href="/?#"><button>Ir al home</button></a>
-                </div>
-                
             <nav>
-                <ul>
-                    <li><a href="#">Ofertas</a></li>
-                    <li><a href="#">Tiendas Oficiales</a></li>
-                    <li><a href="#">Vender</a></li>
-                    <li><a href="#">Ayuda</a></li>
+                <div class= "lista-head">
+                <ul id="lista-head">
+                    <li> <a href="#">Ofertas</a></li>
+                    <li><span class="separador">| </span><a href="#">Tiendas Oficiales</a></li>
+                    <li><span class="separador">| </span><a href="#">Vender</a></li>
+                    <li><span class="separador">| </span><a href="#">Ayuda</a></li>
+                    <li><span class="separador">| </span><a href="register">Creá tu cuenta <i class="far fa-id-card"></i></a></li>
+                    <li><span class="separador">| </span><a href="login">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
+                    <li><span class="separador">| </span><a href="#">Mis compras <i class="fas fa-shopping-basket"></i></a></li>
                 </ul>
-                <ul>
-                    <li><a href="register">Creá tu cuenta <i class="far fa-id-card"></i></a></li>
-                    <li><a href="login">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
-                    <li><a href="#">Mis compras <i class="fas fa-shopping-basket"></i></a></li>
-                </ul>
+                </div>
+            <br>
             </nav>
             <div class="burger-menu">
                 <i class="fa fa-bars burger"></i>
             </div>
         </header>
+
         <main class="register">
             <form action="/" method="POST">
                 <input type="text" name="name" placeholder="Nombre y apellido">
